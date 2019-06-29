@@ -1,0 +1,34 @@
+table {
+  width: 100vw;
+  border-collapse: collapse;
+}
+thead, tbody {
+  text-align: center;
+}
+
+thead th {
+  color: #ffffff;
+  background-color: #4CAF50;
+  padding: 20px 0;
+}
+
+thead tr,tbody tr  {
+  height: 40px;
+}
+tbody td, th {
+  border: 2px solid #000000;
+  margin: -2px;
+}
+
+tbody tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+tbody tr:hover {
+  background-color: #ddd;
+}
+.pagination tr {
+  margin-top: 20px;
+}
+.pagination tr td {
+  border: 2px solid #000000;
+}
