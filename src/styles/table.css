@@ -1,0 +1,46 @@
+table {
+  width: 100vw;
+  border-collapse: collapse;
+}
+thead, tbody {
+  text-align: center;
+}
+
+thead th {
+  color: #ffffff;
+  background-color: #4CAF50;
+  padding: 20px 0;
+}
+
+thead tr,tbody tr  {
+  height: 40px;
+}
+tbody td, th {
+  border: 2px solid #000000;
+  margin: -2px;
+}
+
+tbody tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+select {
+  margin: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+input {
+  margin: 10px;
+  width: 200p;
+  height: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
