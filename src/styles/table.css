@@ -26,3 +26,21 @@ tbody tr:nth-child(even){
 tbody tr:hover {
   background-color: #ddd;
 }
+
+select {
+  margin: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+input {
+  margin: 10px;
+  width: 200p;
+  height: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
