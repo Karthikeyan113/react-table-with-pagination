@@ -2,8 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## steps to run the App
 
-* clone master branch into your local
-* cd  react-table
+#### clone master branch into your local then run the following comments in the terminal
+* cd  react-table-with-pagination
 * npm install
 * npm start
 
