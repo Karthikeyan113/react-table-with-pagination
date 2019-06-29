@@ -59,11 +59,6 @@ class Table extends Component{
         <Input type='text' item='first_name' onChange={this.handleChange} />
         <Input type='text' item='last_name' onChange={this.handleChange} />
         <Select items={this.items} category={this.category} onChange={this.handleChange} />
-        <select onChange={this.handleChange}>
-          <option value=""></option>
-          <option value="Male">Male</option>
-          <option value="Female">Female</option>
-        </select>
         <table>
             <TableHeader theaders= {this.state.theaders}/>
             <tbody>
