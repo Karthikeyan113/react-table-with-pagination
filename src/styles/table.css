@@ -26,9 +26,3 @@ tbody tr:nth-child(even){
 tbody tr:hover {
   background-color: #ddd;
 }
-.pagination tr {
-  margin-top: 20px;
-}
-.pagination tr td {
-  border: 2px solid #000000;
-}
