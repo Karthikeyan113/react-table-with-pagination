@@ -9,15 +9,18 @@ thead, tbody {
 thead th {
   color: #ffffff;
   background-color: #4CAF50;
-  padding: 20px 0;
 }
 
 thead tr,tbody tr  {
-  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-tbody td, th {
-  border: 2px solid #000000;
-  margin: -2px;
+td, th {
+  border: 1px solid #000000;
+  flex: 1;
+  padding: 10px 0;
+  height: 20px;
 }
 
 tbody tr:nth-child(even){
